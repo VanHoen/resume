@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Pixels&family=Sofia+Sans+Condensed&display=swap');
+body {
+    font-family:Sofia Sans Condensed, sans-serif ;
+    background:  #f1f1f1;
+    color: #0f141e;
+}
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+.info-text {
+    margin-left: 20px;
+}
+@media (max-width:650px){
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+.exp {
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid lightcoral;
+    border-radius: 10px;
+    padding:15px 20px;
+    background-color: lightcoral;
+    margin-bottom: 10px;
+
+}
+.sub {
+    font-size:  15px;
+    font-weight: 900;
+}
+.hobby {
+    border: 2px solid lightgreen;
+    border-radius: 10px;
+    font-size: 20px;
+    padding:15px 20px;
+    background: lightgreen;
+    margin-bottom: 10px;
+}
+
+.photo {
+    border-radius: 50px;
+}
+.ref h2{
+text-align: center;
+}
+.container{
+    max-width: 700px;
+    margin: auto;
+    padding-top: 30px;
+}
+.avatar {
+    width: 150px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+
+}
+a {
+color: blue;
+text-decoration: none;
+}
+a:visited {
+    color: red;
+}
+a:hover {
+    color: orange;
+}
+.btn {
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    margin-left: 160px;
+}
+.btn:hover {
+    color: orange;
+}
+.list {
+    padding: 0 20px;
+
+}
+.list li {
+    color:#151446 ;
+    margin-bottom: 10px;
+}
+.table td {
+    padding-bottom: 10px;
+}
+.table td:nth-child(2) , .table td:nth-child(3){
+    color: rgb(36, 33, 33);
+}
+.form-group label {
+    display: block;
+
+}
+
+.form-group input , .form-group textarea {
+    width:  100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px ;
+    outline: none;
+}
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+.form-row .form-group {
+    /* display: inline-block; */
+    margin-right: 20px;
+    width: 50% ;
+    /* width: (50% - 20px); */
+
+}
+@media(max-width:650px) {
+    .form-row {
+        display: block;
+
+    }
+    .form-row , .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+.form-group .form-row:last-child {
+    margin-right: 0;
+
+}
